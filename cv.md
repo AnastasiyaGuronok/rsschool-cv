@@ -1,5 +1,6 @@
 ## rsschool-CV
 # Anastasiya Guronok
+! 
 =========
 ### Contacts
 * __Location:__ Minsk, Belarus
@@ -16,6 +17,8 @@
 * CSS/SASS
 * Git
 * JavaScript (Basic)
+* Figma, Pixco (for web development)
+
 ======
 ### Experience
 =====
