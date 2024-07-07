@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+}
+
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    line-height: 1.5;
+    background-color: #e4cec1;
+    width: 1040px;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 0px 5px 10px  0px rgba(0, 0, 0, 0.5);
+}
+
+.CV {
+    background-color: white;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 1px solid rgb(63, 63, 63); 
+}
+
+ li {
+    list-style-type: none;
+}
+
+header {
+   display: flex;
+}
+
+.header-left {
+    width: 372px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+   
+}
+
+.messengers ul {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.header-right {
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.header-right li {
+    list-style-type: none;
+}
+
+.header-right img {
+    height: 30px;
+    width: 30px;
+}
+
+.messengers {
+    display: inline-block;
+    align-items: flex-end;
+    margin-left: 500px;
+}
+
+.main {
+    display: flex;
+}
+
+.about-me-left {
+    width: 356px;
+    margin: 0px;
+    padding: 40px;
+    background-color: #f3f3f3;
+}
+
+.foto img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.foto {
+    padding-left: 40px;
+}
+
+.Contacts {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.about-me-right {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skills li {
+    list-style-type: square;
+}
+
+.Code-exemple pre { 
+    font-size: 16px;
+    line-height: 1;
+} 
+
+.Education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Example a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+}
+
+a:hover {
+    color: #b3aaae;;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 40px 80px;
+   
+}
+
+.logo {
+    width: 150px;
+}
+
+.GitHub img {
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+

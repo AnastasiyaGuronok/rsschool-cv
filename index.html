@@ -3,9 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>CV</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CV Anastasiya Guronok</title>
 </head>
 <body>
-    <h1>Anastasiya Guronok</h1>
+    <div class="CV">
+        <header>
+            <div class="header-left"></div>
+            <div class="header-right">
+                <nav class="messengers">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/AnastasiyaGuronok/rsschool-cv">
+                                <img src="images/gitHub.png" alt="GitHub">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://mail.ru/">
+                                <img src="images/mail.png" alt="mail">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-%D0%B3%D1%83%D1%80%D0%BE%D0%BD%D0%BE%D0%BA-37b6a6276/">
+                                <img src="images/LinkedIn.png" alt="LinkedIn">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="about-me-left">
+                <div class="foto">
+                    <img src="images/foto.jpeg" alt="AnastasiyaGuronok">
+                </div>
+                <h1>Anastasiya Guronok</h1>
+                <div class="Contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <Li><b>Location:</b> Belarus</Li>
+                        <Li><b>Phone:</b> +375 33 663-32-37</Li>
+                        <Li><b>Email:</b> nastya.guronok@gmail.com</Li>
+                        <li><b>GitHab:</b> AnastasiyaGuronok</li>
+                    </ul>
+                </div>
+                <div class="Abot-me">
+                    <h2>About me</h2>
+                    <p>
+                        About 10 years in the banking industry. Successful experience in realization and implementation of new projects and processes. Ability to work in a fast-changing environment, ability to achieve positive results in any circumstances.
+                    </p>
+                </div>
+            </section>
+            <section class="about-me-right">
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS/SASS</li>
+                        <li>Git</li>
+                        <li>JavaScript (Basic)</li>
+                        <li>React (Basic)</li>
+                        <li>Figma, Pixco (for web development)</li>
+                    </ul>
+                </div>
+                <div class="Code-exemple" >
+                    <h2>Code exemple</h2>
+                    <pre>
+    const galery = (selector) => {
+        const galerys = document.querySelectorAll(selector);
+        if (!galerys) return;
+                            
+        const galeryHandler = (container) => {
+            const mins = container.querySelector('.mins');
+            const view = container.querySelector('.view-contaner');
+            if (!mins || !view) return;
+            const close = view.querySelector('.close');
+            const img = view.querySelector('.img').children[0];
+                            
+            const viewController = (href) => {
+                view.classList.add('active');
+                img.src = href;
+            }
+
+            close.addEventListener('click', () => {
+                view.classList.remove('active');
+                    img.src = '';
+            });
+                            
+            const minHandler = (event) => {
+                let target = event.target;
+                event.preventDefault();
+                if (target.parentElement.tagName === 'A'){
+                    target = target.parentElement;
+                }
+                const href = target.href;
+                viewController(href);
+            }
+                            
+            mins.addEventListener('click', minHandler);
+        };
+                            
+        galerys.forEach(item => galeryHandler(item));
+    };
+                            
+    galery(".galery");                
+                    </pre>
+
+                </div>
+                <div class="Example">
+                    <h2> Example of training project</h2>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/AnastasiyaGuronok/HomeWorks_JS/tree/Exam_CSS"> One-page website (CSS)</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AnastasiyaGuronok/HomeWorks_JS/tree/Final_Project">Online shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><b>Universit: </b> Belarusian University of Economics, specialization in banking</li>
+                        <li><b>Courses: </b>Frontend development</li>
+                    </ul>
+                </div>
+                <div class="English">
+                    <h2>English level</h2>
+                    <p><b>A1</b>(improving my English)</p>
+                </div>
+            </section>
+        </main>
+    <footer>
+        <div class="footer">
+            <div class="logo"> 
+                <a href="https://rs.school/courses/javascript-ru">
+                    <img src="images/logo.svg" alt="rs.school">
+                </a>
+            </div>
+            <div class="year">
+                <p>2024</p>
+            </div>
+            <div class="GitHub">
+                <a href="https://github.com/AnastasiyaGuronok/rsschool-cv">
+                    <img src="images/gitHub.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </footer>
+    </div>
 </body>
 </html>
