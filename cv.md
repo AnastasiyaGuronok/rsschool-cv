@@ -18,7 +18,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 -----
 
 ## Education
-  * __Education:__ Belarusian University of Economics
+  **Education:** Belarusian University of Economics
 -----
 
 ## English
