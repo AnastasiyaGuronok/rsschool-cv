@@ -2,8 +2,8 @@
 -----
 
 ## Contacts
-  *Телефон - 375330000
-  *Почта- aaaaa@mail.ru
+  * Телефон - 375330000
+  * Почта- aaaaa@mail.ru
 -----
 
 ## About Me
@@ -12,13 +12,13 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 -----
 
 ## Skills
-  *HTML
-  *CSS/SASS
-  *Git
+  * HTML
+  * CSS/SASS
+  * Git
 -----
 
 ## Education
-  *__Education:__ Belarusian University of Economics
+  * __Education:__ Belarusian University of Economics
 -----
 
 ## English
