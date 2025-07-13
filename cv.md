@@ -2,8 +2,8 @@
 -----
 
 ## Contacts
-  * Телефон - 375330000
-  * Почта- aaaaa@mail.ru
+  * **Phone** - 375330000
+  * **Mail** - aaaaa@mail.ru
 -----
 
 ## About Me
